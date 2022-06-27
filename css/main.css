@@ -1,0 +1,131 @@
+/* roboto-regular - latin */
+@font-face {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   src: local(''),
+        url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+ }
+ /* roboto-500 - latin */
+ @font-face {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   src: local(''),
+        url('../fonts/roboto-v30-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/roboto-v30-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+ }
+ /* roboto-700 - latin */
+ @font-face {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   src: local(''),
+        url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/roboto-v30-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+ }
+ 
+*{
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+}
+
+body{
+   margin: 0px;
+   font-family: 'Roboto';
+}
+img{
+   vertical-align: middle;
+   object-fit: cover;
+}
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+ }
+.container{
+   width: 1300px;
+   margin: 0px auto;
+   padding: 0px 20px;
+}
+.site-header{
+   height: 800px;
+   background-image: url("../images/Rectangle\ 679.png"), url("../images/Rectangle.png");
+   background-repeat: no-repeat;
+   background-size: 710px 696px, cover, 160px 160px;
+   background-position: calc(50% + 350px) calc(104px), center, calc(50% + 300px);
+   background-color: #F2D5B3;
+}
+
+
+.header-top{
+   padding-top: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.top-list{
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+}
+.top-item{
+   padding-left: 40px;
+}
+.top-item:nth-child(1){
+   padding-left: 0px;
+}
+.top-link{
+   font-style: normal;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 14px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #333333;
+}
+/* header top qismi tugadi */
+.header-bottom{
+   width: 454px;
+   margin-top: 156px;
+   margin-left: 80px;
+}
+.bottom-title{
+   margin: 0px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 64px;
+   line-height: 75px;
+   color: #000000;
+}
+.bottom-text{
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #000000;
+   margin-bottom: 34px;
+}
+.bottom-link{
+   padding: 16px 24px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   text-align: center;
+   letter-spacing: 1px;
+   font-variant: small-caps;
+   color: #FFFFFF;
+   background: #0A775F;
+   border-radius: 100px;
+}
