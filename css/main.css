@@ -59,17 +59,14 @@ img{
    padding: 0px 20px;
 }
 .site-header{
-   height: 800px;
-   background-image: url("../images/Rectangle\ 679.png"), url("../images/Rectangle.png");
+   padding: 40px 0;
+   background-image: url("../images/Group\ 3613.png");
    background-repeat: no-repeat;
-   background-size: 710px 696px, cover, 160px 160px;
-   background-position: calc(50% + 350px) calc(104px), center, calc(50% + 300px);
-   background-color: #F2D5B3;
+   background-size: 100%;
 }
 
 
 .header-top{
-   padding-top: 30px;
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -95,9 +92,9 @@ img{
    color: #333333;
 }
 /* header top qismi tugadi */
-.header-bottom{
+.hero-box{
+   position: relative;
    width: 454px;
-   margin-top: 156px;
    margin-left: 80px;
 }
 .bottom-title{
@@ -128,4 +125,23 @@ img{
    color: #FFFFFF;
    background: #0A775F;
    border-radius: 100px;
+}
+.hero-section{
+   position: relative;
+   padding: 156px 0 256px 0;
+   background-image: url("../images/Rectangle\ 679.png"), url("../images/Group\ 3613.png");
+   background-repeat: no-repeat;
+   background-size: 710px 696px, 100%;
+   background-position: calc(50% + 350px) bottom, calc(0px);
+}
+.hero-section::before{
+   position: absolute;
+   top: -75px;
+   left: calc(50% + -90px);
+   content: '';
+   background-image: url("../images/bg.svg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+   width: 200px;
+   height: 200px;
 }
